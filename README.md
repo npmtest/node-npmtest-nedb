@@ -1,6 +1,6 @@
 # npmtest-nedb
 
-#### test coverage for  [nedb (v1.8.0)](https://github.com/louischatriot/nedb)  [![npm package](https://img.shields.io/npm/v/npmtest-nedb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nedb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nedb.svg)](https://travis-ci.org/npmtest/node-npmtest-nedb)
+#### basic test coverage for  [nedb (v1.8.0)](https://github.com/louischatriot/nedb)  [![npm package](https://img.shields.io/npm/v/npmtest-nedb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nedb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nedb.svg)](https://travis-ci.org/npmtest/node-npmtest-nedb)
 
 #### File-based embedded data store for node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-nedb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-nedb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-nedb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-nedb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nedb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nedb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-nedb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-nedb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nedb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nedb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-nedb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-nedb/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "mocha --reporter spec --timeout 10000"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
